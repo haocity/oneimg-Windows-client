@@ -19,6 +19,7 @@ namespace oneimg
     {
         int i = 0;
         string path = @"c:\";//写入目录
+        int num = 4000;//默认图片数量
         public Form1()
         {
             InitializeComponent();
@@ -57,27 +58,35 @@ namespace oneimg
             }
             catch
             {
-                MessageBox.Show("eero! Dont find oneimg server! Please check your Internet! \n 错误!无法链接到一图服务器!请检查你的网络");
+                MessageBox.Show("eero! Dont find oneimg server! Please check your Internet! \n 错误!无法链接到一图服务器或无法写入文件!请检查你的网络");
                
             }
 
         }
+        public void Read(string path)
+        {
+            StreamReader sr = new StreamReader(path, Encoding.Default);
+            String line;
+            while ((line = sr.ReadLine()) != null)
+            {
+                num =int.Parse(line.ToString());
 
+            }
+        }
+        public void ReadImgNumber()
+        {
+            ReadWebFile("http://t5.haotown.cn/data/", path + "num.inf");
+            Read(path + "num.inf");
+        }
 
 
 
     
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-           
- 
-            
-        }
         private void getimgnumber()
         {
             Random ran = new Random();
-            int RandKey = ran.Next(1, 4200);
+            int RandKey = ran.Next(1, num);
             textBox1.Text = RandKey+ "";
         }
 
@@ -90,6 +99,7 @@ namespace oneimg
             }
             getimgnumber();
             downoneimg();
+            ReadImgNumber();
         }
 
         private void downoneimg()
@@ -115,8 +125,9 @@ namespace oneimg
             Control.CheckForIllegalCrossThreadCalls = false;
             thread1.Start();
 
+        }
 
-        } 
+      
 
     }
 
