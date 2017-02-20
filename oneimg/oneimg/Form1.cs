@@ -75,7 +75,7 @@ namespace oneimg
         }
         public void ReadImgNumber()
         {
-            ReadWebFile("http://t5.haotown.cn/data/", path + "num.inf");
+            ReadWebFile("http://t4.haotown.cn/data/", path + "num.inf");
             Read(path + "num.inf");
         }
 
@@ -105,12 +105,12 @@ namespace oneimg
         private void downoneimg()
         {
 
-            ReadWebFile("http://t5.haotown.cn/img/bj@" + textBox1.Text + ".jpg",path + i + ".jpg");
+            ReadWebFile("http://oneimg.haotown.cn/img/bj@" + textBox1.Text + ".jpg",path + i + ".jpg");
             button1.Enabled = true;
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://www.haotown.cn"); 
+            System.Diagnostics.Process.Start("http://oneimg.haotown.cn"); 
         }
 
         private void button1_Click(object sender, EventArgs e)
