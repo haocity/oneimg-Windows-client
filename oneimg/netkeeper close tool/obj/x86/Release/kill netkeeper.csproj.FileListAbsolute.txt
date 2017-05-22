@@ -1,0 +1,9 @@
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\bin\Release\kill netkeeper.exe
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\bin\Release\kill netkeeper.pdb
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\ResolveAssemblyReference.cache
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\kill_netkeeper.main.resources
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\kill_netkeeper.Properties.Resources.resources
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\GenerateResource.read.1.tlog
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\GenerateResource.write.1.tlog
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\kill netkeeper.exe
+D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Release\kill netkeeper.pdb

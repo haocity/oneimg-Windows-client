@@ -1,0 +1,17 @@
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\bin\Release\oneimg.exe
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\bin\Release\oneimg.pdb
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\ResolveAssemblyReference.cache
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\oneimg_wallpaper.main.resources
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\oneimg_wallpaper.Properties.Resources.resources
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\GenerateResource.read.1.tlog
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\GenerateResource.write.1.tlog
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\oneimg.exe
+D:\users\administrator\documents\visual studio 2010\Projects\oneimg\netkeeper close tool\obj\x86\Release\oneimg.pdb
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg.exe
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg.pdb
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg.csprojResolveAssemblyReference.cache
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg_wallpaper.main.resources
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg_wallpaper.Properties.Resources.resources
+I:\c#\oneimg\netkeeper close tool\obj\x86\Release\oneimg.csproj.GenerateResource.Cache
+I:\c#\oneimg\netkeeper close tool\bin\Release\oneimg.exe
+I:\c#\oneimg\netkeeper close tool\bin\Release\oneimg.pdb
