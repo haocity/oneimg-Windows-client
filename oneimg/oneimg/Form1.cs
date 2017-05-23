@@ -226,7 +226,7 @@ namespace oneimg_wallpaper
             Thread thread1 = new Thread(new ThreadStart(downoneimg));
             Control.CheckForIllegalCrossThreadCalls = false;
             thread1.Start();
-
+            loadini();
         }
 
         private void main_MouseDown(object sender, MouseEventArgs e)
@@ -261,8 +261,16 @@ namespace oneimg_wallpaper
                 {
                     timer2.Interval = int.Parse(textBox2.Text) * 60000;
                     timer2.Enabled = true;
+                    IniFile ini = new IniFile(path + "oneimg.ini");
+                    ini.IniWriteValue("oneimg", "time", textBox2.Text);
+                    ini.IniWriteValue("oneimg", "tstart", "true");
                 }
 
+            }else 
+            {
+                timer2.Enabled = false;
+                IniFile ini = new IniFile(path + "oneimg.ini");
+                ini.IniWriteValue("oneimg", "tstart", "false");
             }
             if (checkBox1.Checked)
             {
@@ -275,11 +283,15 @@ namespace oneimg_wallpaper
                     rk2.SetValue("JcShutdown", path);
                     rk2.Close();
                     rk.Close();
+                    IniFile ini = new IniFile(path + "oneimg.ini");
+                    ini.IniWriteValue("oneimg", "start", "true");
 
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("权限不足 请用管理员权限运行", "提示");
+                    IniFile ini = new IniFile(path + "oneimg.ini");
+                    ini.IniWriteValue("oneimg", "start", "false");
                 }
                
             }
@@ -294,10 +306,14 @@ namespace oneimg_wallpaper
                     rk2.DeleteValue("JcShutdown", false);
                     rk2.Close();
                     rk.Close();
+                    IniFile ini = new IniFile(path + "oneimg.ini");
+                    ini.IniWriteValue("oneimg", "start", "false");
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("权限不足 请用管理员权限运行", "提示");
+                    IniFile ini = new IniFile(path + "oneimg.ini");
+                    ini.IniWriteValue("oneimg", "start", "true");
                 }
             }
         }
@@ -322,6 +338,33 @@ namespace oneimg_wallpaper
             Control.CheckForIllegalCrossThreadCalls = false;
             thread1.Start();
         }
+        private void loadini() 
+        {
+            IniFile ini = new IniFile(path+"oneimg.ini");
+            string start= ini.IniReadValue("oneimg", "start");
+            string time = ini.IniReadValue("oneimg", "time");
+            string tstart = ini.IniReadValue("oneimg", "tstart");
+            if (start=="true")
+            {
+                checkBox1.Checked = true;
+            }
+            if (time!="")
+            {
+                textBox2.Text = time;
+            }
+            if (tstart == "true")
+            {
+                checkBox2.Checked = true;
+                if (int.Parse(textBox2.Text) > 0)
+                {
+                    timer2.Interval = int.Parse(textBox2.Text) * 60000;
+                    timer2.Enabled = true;
+                }
+                else {
+                    timer2.Enabled = false ;
+                }
+            }
+        }
 
         public class ButtonEx : Button
         {
@@ -344,5 +387,41 @@ namespace oneimg_wallpaper
                 this.ShowInTaskbar =true;
             }
         }
+    }
+
+
+    public class IniFile
+    {
+        public string path;             //INI文件名  
+
+        [DllImport("kernel32")]
+        private static extern long WritePrivateProfileString(string section, string key,
+                    string val, string filePath);
+
+        [DllImport("kernel32")]
+        private static extern int GetPrivateProfileString(string section, string key, string def,
+                    StringBuilder retVal, int size, string filePath);
+
+        //声明读写INI文件的API函数  
+        public IniFile(string INIPath)
+        {
+            path = INIPath;
+        }
+
+        //类的构造函数，传递INI文件名  
+        public void IniWriteValue(string Section, string Key, string Value)
+        {
+            WritePrivateProfileString(Section, Key, Value, this.path);
+        }
+
+        //写INI文件  
+        public string IniReadValue(string Section, string Key)
+        {
+            StringBuilder temp = new StringBuilder(255);
+            int i = GetPrivateProfileString(Section, Key, "", temp, 255, this.path);
+            return temp.ToString();
+        }
+
+        //读取INI文件指定  
     }
 }
