@@ -20,6 +20,7 @@ namespace oneimg_wallpaper
         int nowid = 0;
         int nextid = 0;
         bool one = true;
+        bool startgo = false;
         string path = @"c:\";//写入目录
         int imgnum = 4000;//默认图片数量
         public const int WM_SYSCOMMAND = 0x0112;
@@ -242,10 +243,7 @@ namespace oneimg_wallpaper
             this.notifyIcon1.Visible = true;
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
 
-        }
 
 
         private void label3_Click(object sender, EventArgs e)
@@ -255,6 +253,7 @@ namespace oneimg_wallpaper
 
         private void button4_Click(object sender, EventArgs e)
         {
+
             if (checkBox2.Checked)
             {
                 if (int.Parse(textBox2.Text) > 0)
@@ -272,7 +271,7 @@ namespace oneimg_wallpaper
                 IniFile ini = new IniFile(path + "oneimg.ini");
                 ini.IniWriteValue("oneimg", "tstart", "false");
             }
-            if (checkBox1.Checked)
+            if (checkBox1.Checked && !startgo)
             {
                 MessageBox.Show("设置开机自启动，需要修改注册表 如设置失败 请用管理员权限运行", "提示");
                 try
@@ -295,7 +294,7 @@ namespace oneimg_wallpaper
                 }
                
             }
-            else
+            else if (!checkBox1.Checked && startgo)
             {
                 try
                 {
@@ -347,10 +346,12 @@ namespace oneimg_wallpaper
             if (start=="true")
             {
                 checkBox1.Checked = true;
+                startgo = true;
             }
             if (time!="")
             {
                 textBox2.Text = time;
+                startgo = false;
             }
             if (tstart == "true")
             {
