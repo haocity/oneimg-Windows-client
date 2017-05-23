@@ -1,7 +1,0 @@
-I:\c#\oneimg\oneimg\bin\Release\oneimg.exe
-I:\c#\oneimg\oneimg\bin\Release\oneimg.pdb
-I:\c#\oneimg\oneimg\obj\x86\Release\oneimg_wallpaper.main.resources
-I:\c#\oneimg\oneimg\obj\x86\Release\oneimg_wallpaper.Properties.Resources.resources
-I:\c#\oneimg\oneimg\obj\x86\Release\oneimg.csproj.GenerateResource.Cache
-I:\c#\oneimg\oneimg\obj\x86\Release\oneimg.exe
-I:\c#\oneimg\oneimg\obj\x86\Release\oneimg.pdb
