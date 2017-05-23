@@ -284,6 +284,7 @@ namespace oneimg_wallpaper
                     rk.Close();
                     IniFile ini = new IniFile(path + "oneimg.ini");
                     ini.IniWriteValue("oneimg", "start", "true");
+                    startgo = true;
 
                 }
                 catch (Exception ex)
@@ -307,6 +308,8 @@ namespace oneimg_wallpaper
                     rk.Close();
                     IniFile ini = new IniFile(path + "oneimg.ini");
                     ini.IniWriteValue("oneimg", "start", "false");
+                    startgo =false;
+
                 }
                 catch (Exception ex)
                 {
