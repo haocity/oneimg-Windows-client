@@ -1,9 +1,0 @@
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\bin\Debug\netkeeper close tool.exe
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\bin\Debug\netkeeper close tool.pdb
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\ResolveAssemblyReference.cache
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\netkeeper_close_tool.Properties.Resources.resources
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\GenerateResource.read.1.tlog
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\GenerateResource.write.1.tlog
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\netkeeper close tool.exe
-d:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\netkeeper close tool.pdb
-D:\users\administrator\documents\visual studio 2010\Projects\netkeeper close tool\netkeeper close tool\obj\x86\Debug\netkeeper_close_tool.main.resources

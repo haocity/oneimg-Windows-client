@@ -103,19 +103,11 @@
     <None Include="Resources\1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\btn1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btn2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\btn3.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\close.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="64.ico" />
+    <None Include="Resources\small.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
