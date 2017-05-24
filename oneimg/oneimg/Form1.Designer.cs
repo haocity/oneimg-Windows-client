@@ -99,8 +99,8 @@
             this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.linkLabel1.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.linkLabel1.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.linkLabel1.LinkColor = System.Drawing.Color.Black;
-            this.linkLabel1.Location = new System.Drawing.Point(238, 171);
+            this.linkLabel1.LinkColor = System.Drawing.Color.DimGray;
+            this.linkLabel1.Location = new System.Drawing.Point(396, 325);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(99, 17);
             this.linkLabel1.TabIndex = 0;
@@ -173,18 +173,17 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(364, 231);
+            this.checkBox1.Location = new System.Drawing.Point(367, 226);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(72, 16);
             this.checkBox1.TabIndex = 7;
             this.checkBox1.Text = "开机启动";
             this.checkBox1.UseVisualStyleBackColor = true;
-    
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(364, 253);
+            this.checkBox2.Location = new System.Drawing.Point(367, 248);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(96, 16);
             this.checkBox2.TabIndex = 8;
@@ -193,7 +192,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(364, 275);
+            this.textBox2.Location = new System.Drawing.Point(367, 267);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(47, 21);
             this.textBox2.TabIndex = 9;
@@ -203,7 +202,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(364, 302);
+            this.button4.Location = new System.Drawing.Point(366, 293);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 10;
