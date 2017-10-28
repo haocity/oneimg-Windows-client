@@ -1,4 +1,3 @@
-D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Release\oneimg.csprojResolveAssemblyReference.cache
 D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Release\oneimg_wallpaper.main.resources
 D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Release\oneimg_wallpaper.Properties.Resources.resources
 D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Release\oneimg.csproj.GenerateResource.Cache
