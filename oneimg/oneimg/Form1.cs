@@ -61,11 +61,12 @@ namespace oneimg_wallpaper
 
         public void ReadWebFile(string url, string fileName)
         {
+            System.Diagnostics.Debug.WriteLine(url);
+            System.Console.Write(fileName);
             try
             {
                 WebClient client = new WebClient();
                 client.Headers.Add("User-Agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
-                client.Headers.Add("UserAgent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
                 client.Headers.Add("Content-Type", "application/x-www-form-urlencoded");
                 client.DownloadFile(url, fileName);
             }
@@ -79,7 +80,7 @@ namespace oneimg_wallpaper
 
         public void ReadImgNumber()
         {
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://t5.haotown.cn/oneimg/data/");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("https://oneimg.haotown.cn/data/");
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream recStream = response.GetResponseStream();
             Encoding utf8 = Encoding.GetEncoding("utf-8");

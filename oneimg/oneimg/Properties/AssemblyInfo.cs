@@ -6,11 +6,11 @@ using System.Resources;
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("kill netkeeper")]
-[assembly: AssemblyDescription("kill shandong cmcc netkeeper")]
+[assembly: AssemblyTitle("ONEIMG")]
+[assembly: AssemblyDescription("The most beautiful wallpaper to your most beautiful 最美的壁纸给最美的你")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("HAOTOWM")]
-[assembly: AssemblyProduct("kill netkeeper")]
+[assembly: AssemblyProduct("ONEIMG")]
 [assembly: AssemblyCopyright("Copyright © haotown.cn 2017")]
 [assembly: AssemblyTrademark("HAOTOWN")]
 [assembly: AssemblyCulture("")]
@@ -33,6 +33,6 @@ using System.Resources;
 // 可以指定所有这些值，也可以使用“内部版本号”和“修订号”的默认值，
 // 方法是按如下所示使用“*”:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.1.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 [assembly: NeutralResourcesLanguageAttribute("zh-Hans")]

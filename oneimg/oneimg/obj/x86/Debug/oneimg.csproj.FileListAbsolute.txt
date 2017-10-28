@@ -1,0 +1,13 @@
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg_wallpaper.main.resources
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg_wallpaper.Properties.Resources.resources
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.csproj.GenerateResource.Cache
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\bin\Debug\oneimg.exe.config
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\bin\Debug\oneimg.exe.manifest
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\bin\Debug\oneimg.application
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\bin\Debug\oneimg.exe
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\bin\Debug\oneimg.pdb
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.csproj.CoreCompileInputs.cache
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.exe.manifest
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.application
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.exe
+D:\文档\Documents\GitHub\oneimg-Windows-client\oneimg\oneimg\obj\x86\Debug\oneimg.pdb
