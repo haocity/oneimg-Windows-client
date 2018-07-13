@@ -126,19 +126,19 @@ namespace oneimg_wallpaper
             {
                 yiyan();
             }
-            ReadWebFile("http://oneimg.haotown.cn/img/bj@" + nextid + ".jpg", path + nextid + ".jpg");
+            ReadWebFile("https://oneimg.haotown.cn/img/bj@" + nextid + ".jpg", path + nextid + ".jpg");
             button1.Enabled = true;
             if (one)
             {
                 getimgnumber();
-                ReadWebFile("http://oneimg.haotown.cn/img/bj@" + nextid + ".jpg", path + nextid + ".jpg");
+                ReadWebFile("https://oneimg.haotown.cn/img/bj@" + nextid + ".jpg", path + nextid + ".jpg");
                 one = false;
             }
 
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://oneimg.haotown.cn");
+            System.Diagnostics.Process.Start("https://oneimg.haotown.cn");
         }
         [DllImport("wininet")]
         private extern static bool InternetGetConnectedState(out int connectionDescription, int reservedValue);
@@ -202,7 +202,7 @@ namespace oneimg_wallpaper
 
         private void linkLabel1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("http://app.haotown.cn");
+            System.Diagnostics.Process.Start("https://app.haotown.cn");
         }
 
         private void button2_Click(object sender, EventArgs e)
